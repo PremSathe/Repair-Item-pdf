@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Service-Genie</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-content">
+          <div>
+            <h1>KALYAN SALES LLP</h1>
+            <p class="dealership-location">Dealership Location Demo</p>
+            <p class="address">
+              OPP - RAMBAGH GATE. HATHRAS ROAD RAMBAGH AGRA, UTTAR
+              PRADESH-282006
+            </p>
+          </div>
+          <img
+            alt="Company logo with text 'Sport Utility Vehicles'"
+            src="./assets/2.2 1.png"
+            class="company-logo"
+          />
+        </div>
+        <hr />
+        <div class="repair-order">
+          <h2>Repair Order</h2>
+          <p>Number: <span>RO25A011802</span></p>
+        </div>
+        <hr />
+        <div class="source-details">
+          <p>Source: <span>Walk-In</span></p>
+          <p>Number: <span>RO25A011802</span></p>
+          <p>Date: <span>02 Jan 2024</span></p>
+        </div>
+        <hr />
+        <div class="customer-name">
+          <p>Customer Name:</p>
+          <p>MAHINDRA & MAHINDRA FINANCIAL SERVICES LTD</p>
+        </div>
+        <hr />
+        <div class="customer-details">
+          <p>Customer Type: <span>CRP</span></p>
+          <p>Contact Details: <span>+91 9823517205</span></p>
+        </div>
+      </div>
+
+      <!-- <div class="details-container">
+        <div class="vehicle-details">
+          <h2><span>Vehicle Details</span></h2>
+          <div class="details-list">
+            <div><span>Model</span><span>Scorpio N</span></div>
+            <div><span>Variant</span><span>J25-Scorpio-N Diesel AT</span></div>
+            <div><span>Registration Number</span><span>MH01DX1736</span></div>
+            <div><span>Chassis Number</span><span>P6G98081</span></div>
+            <div><span>Engine Number</span><span>YGP4G62001</span></div>
+            <div><span>RSA Validity</span><span>10 Jan 2024</span></div>
+            <div><span>Shield Validity</span><span>10 Jan 2024</span></div>
+            <div><span>Odometer (In Kms)</span><span>35000</span></div>
+            <div><span>Warranty Start</span><span>10 Jan 2024</span></div>
+          </div>
+        </div>
+
+        <div class="service-advisor">
+          <div class="service-advisor-details">
+            <h2><span>Service Advisor Details</span></h2>
+            <div class="details-list">
+              <div><span>SA Name</span><span>Vipin Kumar</span></div>
+              <div><span>Contact Number</span><span>+91 9984988736</span></div>
+            </div>
+          </div>
+          <div class="time-cost-promise">
+            <h2><span>Time & Cost Promise</span></h2>
+            <div class="details-list">
+              <div><span>Part Cost Estimate</span><span>₹ 8,290</span></div>
+              <div><span>Labour Cost Estimate</span><span>₹ 8,290</span></div>
+              <div class="total-cost">
+                <div><span>Total Cost:</span><span>₹ 8,290</span></div>
+                <div>
+                  <span>Delivery Date & Time:</span>
+                  <span>10 Jan 2024 10:30 AM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="details-container">
+        <!-- Vehicle Details -->
+        <div class="vehicle-details">
+          <h2><span>Vehicle Details</span></h2>
+          <div class="details-list">
+            <div><span>Model</span><span>Scorpio N</span></div>
+            <div><span>Variant</span><span>J25-Scorpio-N Diesel AT</span></div>
+            <div><span>Registration Number</span><span>MH01DX1736</span></div>
+            <div><span>Chassis Number</span><span>P6G98081</span></div>
+            <div><span>Engine Number</span><span>YGP4G62001</span></div>
+            <div><span>RSA Validity</span><span>10 Jan 2024</span></div>
+            <div><span>Shield Validity</span><span>10 Jan 2024</span></div>
+            <div><span>Odometer (In Kms)</span><span>35000</span></div>
+            <div><span>Warranty Start</span><span>10 Jan 2024</span></div>
+          </div>
+        </div>
+
+        <div class="service-advisor">
+          <!-- Service Advisor Details -->
+          <div class="service-advisor-details">
+            <h2><span>Service Advisor Details</span></h2>
+            <div class="details-list">
+              <div><span>SA Name</span><span>Vipin Kumar</span></div>
+              <div><span>Contact Number</span><span>+91 9984988736</span></div>
+            </div>
+          </div>
+
+          <!-- Time & Cost Promise -->
+          <div class="time-cost-promise">
+            <h2><span>Time & Cost Promise</span></h2>
+            <div class="details-list">
+              <div><span>Part Cost Estimate</span><span>₹ 8,290</span></div>
+              <div><span>Labour Cost Estimate</span><span>₹ 8,290</span></div>
+              <div class="total-cost">
+                <div><span>Total Cost:</span><span>₹ 8,290</span></div>
+                <div>
+                  <span>Delivery Date & Time:</span>
+                  <span>10 Jan 2024 10:30 AM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-3">
+        <h2>Detailed Repair Estimate</h2>
+
+        <div class="section-header">Customer Demanded</div>
+
+        <div class="repair-item">
+          <div class="title">
+            <span>1</span>
+            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
+          </div>
+          <div class="cost">
+            <span>Part Amount: ₹3994.99</span>
+            <span>Labour Amount: ₹3994.99</span>
+            <span>Total Amount: ₹7999.98</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Part Description</th>
+                <th>Qty.</th>
+                <th>Rate</th>
+                <th class="rightSide">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MAXIMILE ELITE 1.8 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹114.29</td>
+              </tr>
+              <tr>
+                <td>CU NON ASBESTOS WASHER DIA. 16</td>
+                <td>01</td>
+                <td>₹9.41</td>
+                <td>₹9.41</td>
+              </tr>
+              <tr>
+                <td>OIL FILTER WITH O RING</td>
+                <td>01</td>
+                <td>₹423.46</td>
+                <td>₹423.46</td>
+              </tr>
+              <tr>
+                <td>HVAC FILTER-PARTICLE</td>
+                <td>01</td>
+                <td>₹545.79</td>
+                <td>₹545.79</td>
+              </tr>
+              <tr>
+                <td>MAXIMILE ULTRA V4 6 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹2902.04</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="labour-description">
+            <strong>Labour Description:</strong>
+            <span>Amount</span>
+          </div>
+
+          <p>
+            <span>30000 KM Service Labour</span>
+            <span>₹2469.16</span>
+          </p>
+        </div>
+        <div class="repair-item">
+          <div class="title">
+            <span>2</span>
+            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
+          </div>
+          <div class="cost">
+            <span>Part Amount: ₹3994.99</span>
+            <span>Labour Amount: ₹3994.99</span>
+            <span>Total Amount: ₹7999.98</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Part Description</th>
+                <th>Qty.</th>
+                <th>Rate</th>
+                <th class="rightSide">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MAXIMILE ELITE 1.8 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹114.29</td>
+              </tr>
+              <tr>
+                <td>CU NON ASBESTOS WASHER DIA. 16</td>
+                <td>01</td>
+                <td>₹9.41</td>
+                <td>₹9.41</td>
+              </tr>
+              <tr>
+                <td>OIL FILTER WITH O RING</td>
+                <td>01</td>
+                <td>₹423.46</td>
+                <td>₹423.46</td>
+              </tr>
+              <tr>
+                <td>HVAC FILTER-PARTICLE</td>
+                <td>01</td>
+                <td>₹545.79</td>
+                <td>₹545.79</td>
+              </tr>
+              <tr>
+                <td>MAXIMILE ULTRA V4 6 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹2902.04</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="labour-description">
+            <strong>Labour Description:</strong>
+            <span>Amount</span>
+          </div>
+
+          <p>
+            <span>30000 KM Service Labour</span>
+            <span>₹2469.16</span>
+          </p>
+        </div>
+        <div class="repair-item">
+          <div class="title">
+            <span>3</span>
+            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
+          </div>
+          <div class="cost">
+            <span>Part Amount: ₹3994.99</span>
+            <span>Labour Amount: ₹3994.99</span>
+            <span>Total Amount: ₹7999.98</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Part Description</th>
+                <th>Qty.</th>
+                <th>Rate</th>
+                <th class="rightSide">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MAXIMILE ELITE 1.8 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹114.29</td>
+              </tr>
+              <tr>
+                <td>CU NON ASBESTOS WASHER DIA. 16</td>
+                <td>01</td>
+                <td>₹9.41</td>
+                <td>₹9.41</td>
+              </tr>
+              <tr>
+                <td>OIL FILTER WITH O RING</td>
+                <td>01</td>
+                <td>₹423.46</td>
+                <td>₹423.46</td>
+              </tr>
+              <tr>
+                <td>HVAC FILTER-PARTICLE</td>
+                <td>01</td>
+                <td>₹545.79</td>
+                <td>₹545.79</td>
+              </tr>
+              <tr>
+                <td>MAXIMILE ULTRA V4 6 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹2902.04</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="labour-description">
+            <strong>Labour Description:</strong>
+            <span>Amount</span>
+          </div>
+
+          <p>
+            <span>--</span>
+            <span>--</span>
+          </p>
+        </div>
+        <p>
+          <span style="display: flex; align-items: start"
+            >*Note: All rates and total amounts include all applicable taxes,
+            including GST.</span
+          >
+        </p>
+
+        <div class="section-header" style="margin-top: 20px">
+          Rejected Verbatim
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 50%; border-bottom: 1px solid #fff">
+                Break In Effective
+              </td>
+              <td style="border-bottom: 1px solid #fff">
+                Duplicate With INSPECT FRT & REAR BRAKE
+              </td>
+            </tr>
+            <tr>
+              <td>Customer VOC</td>
+              <td>FQC Remarks</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="section-header">Workshop Recommended</div>
+
+        <!-- <div class="repair-item">
+          <div class="title">2. Wiper Spray Not Working</div>
+          <div class="cost">
+            <span>Part Amount: ₹75.28</span>
+            <span>Labour Amount: ₹0.00</span>
+            <span>Total Amount: ₹150.56</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Part Description</th>
+                <th>Qty.</th>
+                <th>Rate</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MAXICARE WINDSHIELD WASHER FLUID</td>
+                <td>02</td>
+                <td>₹75.28</td>
+                <td>₹150.56</td>
+              </tr>
+            </tbody>
+          </table>
+        </div> -->
+        <div class="repair-item">
+          <div class="title">
+            <span>1</span>
+            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
+          </div>
+          <div class="cost">
+            <span>Part Amount: ₹3994.99</span>
+            <span>Labour Amount: ₹3994.99</span>
+            <span>Total Amount: ₹7999.98</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Part Description</th>
+                <th>Qty.</th>
+                <th>Rate</th>
+                <th class="rightSide">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MAXIMILE ELITE 1.8 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹114.29</td>
+              </tr>
+              <tr>
+                <td>CU NON ASBESTOS WASHER DIA. 16</td>
+                <td>01</td>
+                <td>₹9.41</td>
+                <td>₹9.41</td>
+              </tr>
+              <tr>
+                <td>OIL FILTER WITH O RING</td>
+                <td>01</td>
+                <td>₹423.46</td>
+                <td>₹423.46</td>
+              </tr>
+              <tr>
+                <td>HVAC FILTER-PARTICLE</td>
+                <td>01</td>
+                <td>₹545.79</td>
+                <td>₹545.79</td>
+              </tr>
+              <tr>
+                <td>MAXIMILE ULTRA V4 6 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹2902.04</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="labour-description">
+            <strong>Labour Description:</strong>
+            <span>Amount</span>
+          </div>
+
+          <p>
+            <span>30000 KM Service Labour</span>
+            <span>₹2469.16</span>
+          </p>
+        </div>
+        <div class="repair-item">
+          <div class="title">
+            <span>2</span>
+            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
+          </div>
+          <div class="cost">
+            <span>Part Amount: ₹3994.99</span>
+            <span>Labour Amount: ₹3994.99</span>
+            <span>Total Amount: ₹7999.98</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Part Description</th>
+                <th>Qty.</th>
+                <th>Rate</th>
+                <th class="rightSide">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MAXIMILE ELITE 1.8 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹114.29</td>
+              </tr>
+              <tr>
+                <td>CU NON ASBESTOS WASHER DIA. 16</td>
+                <td>01</td>
+                <td>₹9.41</td>
+                <td>₹9.41</td>
+              </tr>
+              <tr>
+                <td>OIL FILTER WITH O RING</td>
+                <td>01</td>
+                <td>₹423.46</td>
+                <td>₹423.46</td>
+              </tr>
+              <tr>
+                <td>HVAC FILTER-PARTICLE</td>
+                <td>01</td>
+                <td>₹545.79</td>
+                <td>₹545.79</td>
+              </tr>
+              <tr>
+                <td>MAXIMILE ULTRA V4 6 L</td>
+                <td>01</td>
+                <td>₹2902.04</td>
+                <td>₹2902.04</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="labour-description">
+            <strong>Labour Description:</strong>
+            <span>Amount</span>
+          </div>
+
+          <p>
+            <span>30000 KM Service Labour</span>
+            <span>₹2469.16</span>
+          </p>
+        </div>
+        <p style="margin-bottom: 10px">
+          <span
+            >*Note: All rates and total amounts include all applicable taxes,
+            including GST.</span
+          >
+        </p>
+
+        <div class="vehicleHealth">
+          <div class="vehicleHealth-left">
+            <p>Customer Acknowledgement</p>
+            <p>If signed at RO opening</p>
+          </div>
+          <div class="vehicleHealth-right">
+            <div>
+              <img
+                src="./assets/ico-feedback.png"
+                style="width: 32px; height: 32px"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <p>To view vehicle inspection report</p>
+              <p><link rel="stylesheet" href="" />click here</p>
+            </div>
+          </div>
+        </div>
+        <!-- <table>
+            <tbody>
+              <tr>
+                <td style="width: 50%; border-bottom: 1px solid #fff">
+                  Customer Acknowledgement
+                </td>
+                <td style="border-bottom: 1px solid #fff">
+                  <img
+                    src="./assets/ico-feedback.png"
+                    style="width: 32px; height: 32px"
+                    alt=""
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>If signed at RO opening</td>
+                <td>To view vehicle inspection report</td>
+              </tr>
+            </tbody>
+          </table> -->
+
+        <div class="section-header">Vehicle Health Checklist Images</div>
+        <p><span> Headlamp_Broken/Not Working</span></p>
+        <div class="image-container">
+          <img src="./assets/Frame 73993.png" alt="Jeep" />
+          <img src="./assets/Frame 73993.png" alt="Jeep" />
+          <img src="./assets/Frame 73993.png" alt="Jeep" />
+        </div>
+
+        <div class="section-header">Escalation Details</div>
+        <table class="escalation-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>CXM</th>
+              <th>SH</th>
+              <th>GM</th>
+              <th>CCM</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Contact</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+            </tr>
+          </tbody>
+          <thead>
+            <tr>
+              <th></th>
+              <th>MRC</th>
+              <th>WHY</th>
+              <th>WA</th>
+              <th>Twitter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Contact</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="terms-container">
+        <h2>Terms & Conditions</h2>
+        <p>
+          I understand that the workshop carries out the repairs solely in line
+          with the following conditions:
+        </p>
+
+        <ol>
+          <li>
+            I have authorised and allowed the workshop to dismantle and assemble
+            all relevant aggregate(s) of my vehicle ("Vehicle"), in order to
+            diagnose the root cause of my concern and carry out necessary repair
+            using necessary spare parts as per the terms of applicable warranty
+            policy.
+          </li>
+
+          <li>
+            I am fully aware that my Vehicle shall be stored, driven and
+            repaired solely at my own risk and cost. I agree that for any loss
+            or damage caused to my Vehicle in the event of any Force Majeure
+            Event or for the reasons beyond the control of workshop, dealership
+            and/or M&M, neither the workshop nor the dealership or M&M shall be
+            responsible...
+          </li>
+
+          <li>
+            I agree that I will not indulge in any unauthorised surveillance
+            including photography, videography, etc. at or of the workshop and
+            shall not trespass into any area not meant for customers or
+            outsiders in the workshop premise...
+          </li>
+
+          <li>
+            The delivery date and time informed by the Dealership while
+            admitting the Vehicle is just an indicative estimate and not a firm
+            commitment...
+          </li>
+
+          <li>
+            Vehicle shall be retained at workshop/service station for a period
+            as may be necessary for carrying out the inspection,
+            investigation(s) and repair...
+          </li>
+
+          <li>
+            Necessary components/parts shall be replaced or repaired as deemed
+            fit and the cost shall be borne by me if the same are not covered
+            under the applicable warranty...
+          </li>
+
+          <li>
+            Repair cost estimation is provided on the repair request conveyed by
+            the customer and as per the initial inspection of the Vehicle...
+          </li>
+
+          <li>
+            In case of any accident or damage caused to Vehicle in workshop or
+            during road test or in event of Force Majeure Event...
+          </li>
+
+          <li>
+            I allow and authorise the dealer/workshop or any other authorised
+            person appointed on their behalf to contact me through phone/text
+            message/WhatsApp/email...
+          </li>
+
+          <li>
+            Replaced parts may be handed over to me, however dealer/workshop may
+            retain replaced part/used parts to carry out root cause analysis...
+          </li>
+
+          <li>
+            In case I do not collect the replaced parts after service, then it
+            shall be assumed that I am not interested or willing to collect the
+            parts...
+          </li>
+
+          <li>
+            Parts replaced under manufacturer’s standard warranty, extended
+            warranty or any other scheme shall be retained by the dealership...
+          </li>
+
+          <li>
+            Customer needs to ensure to properly dispose any replaced parts
+            collected by him/her as per applicable local
+            government/environmental guidelines.
+          </li>
+
+          <li>
+            Salvage of accident Vehicle must be collected by customer along with
+            the Vehicle...
+          </li>
+
+          <li>
+            The workshop shall not be bound to replace the spare
+            parts/components or consumable items brought from outside by the
+            customer...
+          </li>
+
+          <li>
+            In case of pickup and drop facility availed by me, I agree that the
+            Vehicle shall be driven & brought to workshop or delivered back at
+            my sole risk & responsibility...
+          </li>
+
+          <li>
+            I undertake to pay the demurrage/garage/storing charges levied by
+            the workshop for retaining my Vehicle after service...
+          </li>
+
+          <li>
+            I also undertake to make payment of all the charges before taking
+            the delivery of my Vehicle...
+          </li>
+
+          <li>
+            Customer shall pay an advance payment of up to 50% of the total
+            estimated cost in case of major repairs...
+          </li>
+
+          <li>
+            After providing estimate to the customer, repair work will be
+            carried out based on verbal/written/online approval from the
+            customer...
+          </li>
+
+          <li>
+            Customer shall undertake to pay estimation charges as levied by the
+            Dealership if the repair job is not entrusted to the Dealer after
+            obtaining the estimate...
+          </li>
+
+          <li>
+            The dealership can exercise lien on the Vehicle until all the
+            above-mentioned dues are settled to the Dealership’s satisfaction.
+          </li>
+
+          <li>
+            The Dealership may deliver the Vehicle to the customer or any
+            representative of the customer whose signature appears on the Job
+            Card...
+          </li>
+
+          <li>
+            I am the owner and have read and understood the terms and condition
+            stated and agree to abide by the same.
+          </li>
+
+          <li>
+            These terms and conditions do not apply to repairs that we carry out
+            on the basis of a warranty agreement...
+          </li>
+
+          <li>
+            Once this repair order is approved, the work carried out under this
+            repair order, shall be subject to the jurisdiction of the local
+            courts...
+          </li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>

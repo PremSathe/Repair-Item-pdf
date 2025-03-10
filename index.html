@@ -4,17 +4,76 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Service-Genie</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body>
-    <div class="container">
-      <div class="header">
-        <div class="header-content">
+  <body
+    style="
+      background-color: #fff;
+      margin: 0;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 563px;
+      margin: 0 auto;
+      font-family: 'Lato', sans-serif;
+    "
+  >
+    <div
+      class="container"
+      style="width: 100%; background-color: #fff; overflow: hidden"
+    >
+      <!----------------------------------Header----------------------------------->
+
+      <div
+        class="header"
+        style="
+          background-color: #f6f6f6;
+          border: 1px solid #d9d9d9;
+          border-radius: 4px;
+          padding: 8px;
+        "
+      >
+        <div
+          class="header-content"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+          "
+        >
           <div>
-            <h1>KALYAN SALES LLP</h1>
-            <p class="dealership-location">Dealership Location Demo</p>
-            <p class="address">
+            <h1
+              style="
+                font-size: 14px;
+                font-weight: 700;
+                margin: 0;
+                color: #0b0b0c;
+              "
+            >
+              KALYAN SALES LLP
+            </h1>
+            <p
+              class="dealership-location"
+              style="
+                font-size: 10px;
+                font-weight: 700;
+                margin: 4px 0;
+                color: #0b0b0c;
+              "
+            >
+              Dealership Location Demo
+            </p>
+            <p
+              class="address"
+              style="
+                font-weight: 500;
+                font-size: 8px;
+                color: #545454;
+                margin: 0;
+              "
+            >
               OPP - RAMBAGH GATE. HATHRAS ROAD RAMBAGH AGRA, UTTAR
               PRADESH-282006
             </p>
@@ -23,608 +82,2268 @@
             alt="Company logo with text 'Sport Utility Vehicles'"
             src="./assets/2.2 1.png"
             class="company-logo"
+            style="height: 40px; width: auto"
           />
         </div>
-        <hr />
-        <div class="repair-order">
-          <h2>Repair Order</h2>
-          <p>Number: <span>RO25A011802</span></p>
-        </div>
-        <hr />
-        <div class="source-details">
-          <p>Source: <span>Walk-In</span></p>
-          <p>Number: <span>RO25A011802</span></p>
-          <p>Date: <span>02 Jan 2024</span></p>
-        </div>
-        <hr />
-        <div class="customer-name">
-          <p>Customer Name:</p>
-          <p>MAHINDRA & MAHINDRA FINANCIAL SERVICES LTD</p>
-        </div>
-        <hr />
-        <div class="customer-details">
-          <p>Customer Type: <span>CRP</span></p>
-          <p>Contact Details: <span>+91 9823517205</span></p>
-        </div>
-      </div>
-
-      <!-- <div class="details-container">
-        <div class="vehicle-details">
-          <h2><span>Vehicle Details</span></h2>
-          <div class="details-list">
-            <div><span>Model</span><span>Scorpio N</span></div>
-            <div><span>Variant</span><span>J25-Scorpio-N Diesel AT</span></div>
-            <div><span>Registration Number</span><span>MH01DX1736</span></div>
-            <div><span>Chassis Number</span><span>P6G98081</span></div>
-            <div><span>Engine Number</span><span>YGP4G62001</span></div>
-            <div><span>RSA Validity</span><span>10 Jan 2024</span></div>
-            <div><span>Shield Validity</span><span>10 Jan 2024</span></div>
-            <div><span>Odometer (In Kms)</span><span>35000</span></div>
-            <div><span>Warranty Start</span><span>10 Jan 2024</span></div>
-          </div>
-        </div>
-
-        <div class="service-advisor">
-          <div class="service-advisor-details">
-            <h2><span>Service Advisor Details</span></h2>
-            <div class="details-list">
-              <div><span>SA Name</span><span>Vipin Kumar</span></div>
-              <div><span>Contact Number</span><span>+91 9984988736</span></div>
-            </div>
-          </div>
-          <div class="time-cost-promise">
-            <h2><span>Time & Cost Promise</span></h2>
-            <div class="details-list">
-              <div><span>Part Cost Estimate</span><span>₹ 8,290</span></div>
-              <div><span>Labour Cost Estimate</span><span>₹ 8,290</span></div>
-              <div class="total-cost">
-                <div><span>Total Cost:</span><span>₹ 8,290</span></div>
-                <div>
-                  <span>Delivery Date & Time:</span>
-                  <span>10 Jan 2024 10:30 AM</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <div class="details-container">
-        <!-- Vehicle Details -->
-        <div class="vehicle-details">
-          <h2><span>Vehicle Details</span></h2>
-          <div class="details-list">
-            <div><span>Model</span><span>Scorpio N</span></div>
-            <div><span>Variant</span><span>J25-Scorpio-N Diesel AT</span></div>
-            <div><span>Registration Number</span><span>MH01DX1736</span></div>
-            <div><span>Chassis Number</span><span>P6G98081</span></div>
-            <div><span>Engine Number</span><span>YGP4G62001</span></div>
-            <div><span>RSA Validity</span><span>10 Jan 2024</span></div>
-            <div><span>Shield Validity</span><span>10 Jan 2024</span></div>
-            <div><span>Odometer (In Kms)</span><span>35000</span></div>
-            <div><span>Warranty Start</span><span>10 Jan 2024</span></div>
-          </div>
-        </div>
-
-        <div class="service-advisor">
-          <!-- Service Advisor Details -->
-          <div class="service-advisor-details">
-            <h2><span>Service Advisor Details</span></h2>
-            <div class="details-list">
-              <div><span>SA Name</span><span>Vipin Kumar</span></div>
-              <div><span>Contact Number</span><span>+91 9984988736</span></div>
-            </div>
-          </div>
-
-          <!-- Time & Cost Promise -->
-          <div class="time-cost-promise">
-            <h2><span>Time & Cost Promise</span></h2>
-            <div class="details-list">
-              <div><span>Part Cost Estimate</span><span>₹ 8,290</span></div>
-              <div><span>Labour Cost Estimate</span><span>₹ 8,290</span></div>
-              <div class="total-cost">
-                <div><span>Total Cost:</span><span>₹ 8,290</span></div>
-                <div>
-                  <span>Delivery Date & Time:</span>
-                  <span>10 Jan 2024 10:30 AM</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-3">
-        <h2>Detailed Repair Estimate</h2>
-
-        <div class="section-header">Customer Demanded</div>
-
-        <div class="repair-item">
-          <div class="title">
-            <span>1</span>
-            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
-          </div>
-          <div class="cost">
-            <span>Part Amount: ₹3994.99</span>
-            <span>Labour Amount: ₹3994.99</span>
-            <span>Total Amount: ₹7999.98</span>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>Part Description</th>
-                <th>Qty.</th>
-                <th>Rate</th>
-                <th class="rightSide">Amount</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>MAXIMILE ELITE 1.8 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹114.29</td>
-              </tr>
-              <tr>
-                <td>CU NON ASBESTOS WASHER DIA. 16</td>
-                <td>01</td>
-                <td>₹9.41</td>
-                <td>₹9.41</td>
-              </tr>
-              <tr>
-                <td>OIL FILTER WITH O RING</td>
-                <td>01</td>
-                <td>₹423.46</td>
-                <td>₹423.46</td>
-              </tr>
-              <tr>
-                <td>HVAC FILTER-PARTICLE</td>
-                <td>01</td>
-                <td>₹545.79</td>
-                <td>₹545.79</td>
-              </tr>
-              <tr>
-                <td>MAXIMILE ULTRA V4 6 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹2902.04</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="labour-description">
-            <strong>Labour Description:</strong>
-            <span>Amount</span>
-          </div>
-
-          <p>
-            <span>30000 KM Service Labour</span>
-            <span>₹2469.16</span>
-          </p>
-        </div>
-        <div class="repair-item">
-          <div class="title">
-            <span>2</span>
-            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
-          </div>
-          <div class="cost">
-            <span>Part Amount: ₹3994.99</span>
-            <span>Labour Amount: ₹3994.99</span>
-            <span>Total Amount: ₹7999.98</span>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>Part Description</th>
-                <th>Qty.</th>
-                <th>Rate</th>
-                <th class="rightSide">Amount</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>MAXIMILE ELITE 1.8 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹114.29</td>
-              </tr>
-              <tr>
-                <td>CU NON ASBESTOS WASHER DIA. 16</td>
-                <td>01</td>
-                <td>₹9.41</td>
-                <td>₹9.41</td>
-              </tr>
-              <tr>
-                <td>OIL FILTER WITH O RING</td>
-                <td>01</td>
-                <td>₹423.46</td>
-                <td>₹423.46</td>
-              </tr>
-              <tr>
-                <td>HVAC FILTER-PARTICLE</td>
-                <td>01</td>
-                <td>₹545.79</td>
-                <td>₹545.79</td>
-              </tr>
-              <tr>
-                <td>MAXIMILE ULTRA V4 6 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹2902.04</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="labour-description">
-            <strong>Labour Description:</strong>
-            <span>Amount</span>
-          </div>
-
-          <p>
-            <span>30000 KM Service Labour</span>
-            <span>₹2469.16</span>
-          </p>
-        </div>
-        <div class="repair-item">
-          <div class="title">
-            <span>3</span>
-            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
-          </div>
-          <div class="cost">
-            <span>Part Amount: ₹3994.99</span>
-            <span>Labour Amount: ₹3994.99</span>
-            <span>Total Amount: ₹7999.98</span>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>Part Description</th>
-                <th>Qty.</th>
-                <th>Rate</th>
-                <th class="rightSide">Amount</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>MAXIMILE ELITE 1.8 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹114.29</td>
-              </tr>
-              <tr>
-                <td>CU NON ASBESTOS WASHER DIA. 16</td>
-                <td>01</td>
-                <td>₹9.41</td>
-                <td>₹9.41</td>
-              </tr>
-              <tr>
-                <td>OIL FILTER WITH O RING</td>
-                <td>01</td>
-                <td>₹423.46</td>
-                <td>₹423.46</td>
-              </tr>
-              <tr>
-                <td>HVAC FILTER-PARTICLE</td>
-                <td>01</td>
-                <td>₹545.79</td>
-                <td>₹545.79</td>
-              </tr>
-              <tr>
-                <td>MAXIMILE ULTRA V4 6 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹2902.04</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="labour-description">
-            <strong>Labour Description:</strong>
-            <span>Amount</span>
-          </div>
-
-          <p>
-            <span>--</span>
-            <span>--</span>
-          </p>
-        </div>
-        <p>
-          <span style="display: flex; align-items: start"
-            >*Note: All rates and total amounts include all applicable taxes,
-            including GST.</span
+        <hr style="border: 0; border-top: 1px solid #d9d9d9" />
+        <div
+          class="repair-order"
+          style="display: flex; justify-content: space-between"
+        >
+          <h2 style="font-size: 10px; font-weight: 700; margin: 0">
+            Repair Order
+          </h2>
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
           >
+            RO Number: <span style="color: #0b0b0c">RO25A011802</span>
+          </p>
+        </div>
+        <hr style="border: 0; border-top: 1px solid #d9d9d9" />
+        <div
+          class="source-details"
+          style="display: flex; justify-content: space-between"
+        >
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            Source:
+            <span style="color: #0b0b0c; font-weight: 500">Walk-In</span>
+          </p>
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            Service Category:
+            <span style="color: #0b0b0c; font-weight: 500">
+              Running Repair</span
+            >
+          </p>
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            RO Date:
+            <span style="color: #0b0b0c; font-weight: 500">02 Jan 2024</span>
+          </p>
+        </div>
+        <hr style="border: 0; border-top: 1px solid #d9d9d9" />
+
+        <div
+          class="customer-details"
+          style="display: flex; justify-content: space-between"
+        >
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            Customer Name:
+            <span style="color: #0b0b0c; font-weight: 500"
+              >MAHINDRA & MAHINDRA FINANCIAL SERVICES LTD</span
+            >
+          </p>
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            Customer Type:
+            <span style="color: #0b0b0c; font-weight: 500">CRP</span>
+          </p>
+        </div>
+        <div
+          class="customer-details"
+          style="display: flex; justify-content: space-between; margin-top: 8px"
+        >
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            Customer Contact Details:
+            <span style="color: #0b0b0c; font-weight: 500">+91 9823517205</span>
+          </p>
+        </div>
+        <hr style="border: 0; border-top: 1px solid #d9d9d9" />
+        <div
+          class="customer-details"
+          style="display: flex; justify-content: space-between"
+        >
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            User Name:
+            <span style="color: #0b0b0c; font-weight: 500"
+              >MAHINDRA & MAHINDRA FINANCIAL SERVICES LTD</span
+            >
+          </p>
+          <p
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+              margin: 0;
+              color: #545454;
+            "
+          >
+            User Contact Details:
+            <span style="color: #0b0b0c; font-weight: 500">+91 9823517205</span>
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="details-container"
+        style="
+          margin-top: 8px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          width: 100%;
+          gap: 8px;
+        "
+      >
+        <!----------------------------------Vehicle Details----------------------------------->
+        <div
+          class="vehicle-details"
+          style="
+            font-size: 10px;
+            background: white;
+            padding: 8px;
+            border: 1px solid #d9d9d9;
+            border-radius: 4px;
+            /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); */
+          "
+        >
+          <h2 style="font-size: 10px; font-weight: 600; position: relative">
+            <span
+              style="
+                display: inline-block;
+                position: relative;
+                border-bottom: 2px solid #ff3e5b;
+              "
+              >Vehicle Details</span
+            >
+          </h2>
+          <div
+            class="details-list"
+            style="display: flex; flex-direction: column"
+          >
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">Model</span
+              ><span style="font-weight: 500">Scorpio N</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">Variant</span
+              ><span style="font-weight: 500">J25-Scorpio-N Diesel AT</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">Registration Number</span
+              ><span style="font-weight: 500">MH01DX1736</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">Chassis Number</span
+              ><span style="font-weight: 500">P6G98081</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">Engine Number</span
+              ><span style="font-weight: 500">YGP4G62001</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">RSA Validity</span
+              ><span style="font-weight: 500">10 Jan 2024</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">Shield Validity</span
+              ><span style="font-weight: 500">10 Jan 2024</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: 1px solid #ddd;
+              "
+            >
+              <span style="color: #545454">Odometer (In Kms)</span
+              ><span style="font-weight: 500">35000</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                padding: 6px 0;
+                border-bottom: none;
+              "
+            >
+              <span style="color: #545454">Warranty Start</span
+              ><span style="font-weight: 500">10 Jan 2024</span>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------Service Advisor Details----------------------------------->
+
+        <div
+          class="service-advisor"
+          style="
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            font-size: 10px;
+          "
+        >
+          <div
+            class="service-advisor-details"
+            style="
+              height: 84px;
+              background: white;
+              padding: 8px;
+              border: 1px solid #d9d9d9;
+              border-radius: 4px;
+              /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); */
+            "
+          >
+            <h2 style="font-size: 10px; font-weight: 600; position: relative">
+              <span
+                style="
+                  display: inline-block;
+                  position: relative;
+                  border-bottom: 2px solid #ff3e5b;
+                "
+                >Service Advisor Details</span
+              >
+            </h2>
+            <div
+              class="details-list"
+              style="display: flex; flex-direction: column"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 6px 0;
+                  border-bottom: 1px solid #ddd;
+                "
+              >
+                <span style="color: #545454">SA Name</span
+                ><span style="font-weight: 500">Vipin Kumar</span>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 6px 0;
+                  border-bottom: none;
+                "
+              >
+                <span style="color: #545454">Contact Number</span
+                ><span style="font-weight: 500">+91 9984988736</span>
+              </div>
+            </div>
+          </div>
+
+          <!----------------------------------Time & Cost Promise----------------------------------->
+
+          <div
+            class="time-cost-promise"
+            style="
+              background: white;
+              padding: 8px;
+              height: 137.8px;
+              border: 1px solid #d9d9d9;
+              border-radius: 4px;
+              /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); */
+            "
+          >
+            <h2 style="font-size: 10px; font-weight: 600; position: relative">
+              <span
+                style="
+                  display: inline-block;
+                  position: relative;
+                  border-bottom: 2px solid #ff3e5b;
+                "
+                >Time & Cost Promise</span
+              >
+            </h2>
+            <div
+              class="details-list"
+              style="display: flex; flex-direction: column"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 6px 0;
+                  border-bottom: 1px solid #ddd;
+                "
+              >
+                <span style="color: #545454">Part Cost Estimate</span
+                ><span style="font-weight: 500">₹ 8,290</span>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 6px 0;
+                  border-bottom: none;
+                "
+              >
+                <span style="color: #545454">Labour Cost Estimate</span
+                ><span style="font-weight: 500">₹ 8,290</span>
+              </div>
+              <div
+                class="total-cost"
+                style="
+                  background-color: #f6f6f6;
+                  padding: 8px !important;
+                  border-radius: 5px;
+                  margin-top: 10px;
+                  font-weight: 500;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 4px;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #ddd;
+                  "
+                >
+                  <span style="color: #545454; margin-bottom: 4px"
+                    >Total Cost:</span
+                  ><span style="font-weight: 500">₹ 8,290</span>
+                </div>
+
+                <!-- <div style="border: 2px ;"></div> -->
+
+                <div style="display: flex; justify-content: space-between">
+                  <span style="color: #545454">Delivery Date & Time:</span
+                  ><span style="font-weight: 500">10 Jan 2024 10:30 AM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-3"
+        style="
+          font-size: 10px;
+          background: white;
+          border: 1px solid #d9d9d9;
+          border-radius: 4px;
+          padding: 8px;
+          margin-top: 8px;
+          border-radius: 4px;
+          /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+        "
+      >
+        <h2
+          style="
+            width: max-content;
+            font-size: 12px;
+            text-align: left;
+            color: #333;
+            margin-bottom: 15px;
+            position: relative;
+            border-bottom: 2px solid #ff3e5b;
+          "
+        >
+          Detailed Repair Estimate
+        </h2>
+
+        <!----------------------------------Customer Demanded----------------------------------->
+
+        <div
+          class="section-header"
+          style="
+            background-color: #ff3e5b;
+            color: white;
+            padding: 4px;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 4px 4px 0 0;
+            margin-top: 0;
+            font-size: 10px;
+          "
+        >
+          Customer Demanded
+        </div>
+
+        <div
+          class="repair-item"
+          style="border: 1px solid #d9d9d9; border-radius: 0 0 4px 4px"
+        >
+          <div
+            class="title"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              display: flex;
+              align-items: center;
+              background-color: #f6f6f6;
+            "
+          >
+            <span
+              style="
+                min-width: 26px;
+                height: 36px;
+                padding: 4px 10px;
+                border-right: 1px solid #d9d9d9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+              >1</span
+            >
+            <p
+              style="
+                margin: 0;
+                padding-left: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+              "
+            >
+              SCORPIO-N_30000 KM SERVICE <br />--
+            </p>
+          </div>
+          <div
+            class="cost"
+            style="
+              font-size: 10px;
+              color: #555;
+              background-color: #fff0f2;
+              display: flex;
+              justify-content: space-between;
+              padding: 6px 10px;
+              border: 1px solid #000;
+              border-left: none;
+              border-right: none;
+            "
+          >
+            <span>Part Amount: ₹3994.99</span>
+            <span>Labour Amount: ₹3994.99</span>
+            <span>Total Amount: ₹7999.98</span>
+          </div>
+          <table style="width: 100%; border-collapse: collapse">
+            <thead>
+              <tr>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Part Description
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Qty.
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Rate
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Amount
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  MAXIMILE ELITE 1.8 L
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹2902.04
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹114.29
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  CU NON ASBESTOS WASHER DIA. 16
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹9.41
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹9.41
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  OIL FILTER WITH O RING
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹423.46
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹423.46
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  HVAC FILTER-PARTICLE
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹545.79
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹545.79
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  MAXIMILE ULTRA V4 6 L
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹2902.04
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹2902.04
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="labour-description"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              padding: 6px 10px;
+              background-color: #f6f6f6;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <strong>Labour Description</strong>
+            <span>Amount</span>
+          </div>
+
+          <p
+            style="
+              font-size: 10px;
+              padding: 4px 10px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <span>30000 KM Service Labour</span>
+            <span>₹2469.16</span>
+          </p>
+        </div>
+        <div
+          class="repair-item"
+          style="border: 1px solid #d9d9d9; border-radius: 0 0 4px 4px"
+        >
+          <div
+            class="title"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              display: flex;
+              align-items: center;
+              background-color: #f6f6f6;
+            "
+          >
+            <span
+              style="
+                min-width: 26px;
+                height: 36px;
+                padding: 4px 10px;
+                border-right: 1px solid #d9d9d9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+              >2</span
+            >
+            <p
+              style="
+                margin: 0;
+                padding-left: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+              "
+            >
+              TOP UP DEF LEVEL <br />DEF AT 40% TANK LEVEL
+            </p>
+          </div>
+          <div
+            class="cost"
+            style="
+              font-size: 10px;
+              color: #555;
+              background-color: #fff0f2;
+              display: flex;
+              justify-content: space-between;
+              padding: 6px 10px;
+              border: 1px solid #000;
+              border-left: none;
+              border-right: none;
+            "
+          >
+            <span>Part Amount: ₹828.08</span>
+            <span>Labour Amount: ₹00.00</span>
+            <span>Total Amount: ₹828.08</span>
+          </div>
+          <table style="width: 100%; border-collapse: collapse">
+            <thead>
+              <tr>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Part Description
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Qty.
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Rate
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Amount
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  MAXICLEAN 10 L WITH FILLING PIPE
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹828.08
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹828.08
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="labour-description"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              padding: 6px 10px;
+              background-color: #f6f6f6;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <strong>Labour Description</strong>
+            <span>Amount</span>
+          </div>
+
+          <p
+            style="
+              font-size: 10px;
+              padding: 4px 10px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <span>--</span>
+            <span>--</span>
+          </p>
+        </div>
+        <div
+          class="repair-item"
+          style="border: 1px solid #d9d9d9; border-radius: 0 0 4px 4px"
+        >
+          <div
+            class="title"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              display: flex;
+              align-items: center;
+              background-color: #f6f6f6;
+            "
+          >
+            <span
+              style="
+                min-width: 26px;
+                height: 36px;
+                padding: 4px 10px;
+                border-right: 1px solid #d9d9d9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+              >3</span
+            >
+            <p
+              style="
+                margin: 0;
+                padding-left: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+              "
+            >
+              INSPECT FRT & REAR BRAKE <br />BRAKE NOISE WHILE BARKING AT ALL
+              SPEED
+            </p>
+            <div
+              class="customer-btn"
+              style="margin-left: 167px; display: flex; gap: 4px"
+            >
+              <button
+                style="
+                  border-radius: 50px;
+                  border: 1px solid #ff3e5b;
+                  background-color: white;
+                  font-size: 8px;
+                  padding: 0 6px;
+                  height: 16px;
+                  cursor: pointer;
+                "
+              >
+                Diagnosis
+              </button>
+              <button
+                style="
+                  border-radius: 50px;
+                  border: 1px solid #ff3e5b;
+                  background-color: white;
+                  font-size: 8px;
+                  padding: 0 6px;
+                  height: 16px;
+                  cursor: pointer;
+                "
+              >
+                Safety
+              </button>
+            </div>
+          </div>
+          <div
+            class="cost"
+            style="
+              font-size: 10px;
+              color: #555;
+              background-color: #fff0f2;
+              display: flex;
+              justify-content: space-between;
+              padding: 6px 10px;
+              border: 1px solid #000;
+              border-left: none;
+              border-right: none;
+            "
+          >
+            <span>Part Amount: ₹9734.04</span>
+            <span>Labour Amount: ₹00.00</span>
+            <span>Total Amount: ₹9734.04</span>
+          </div>
+          <table style="width: 100%; border-collapse: collapse">
+            <thead>
+              <tr>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Part Description
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Qty.
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Rate
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Amount
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  PAD KIT - BRAKE FRONT
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹5101.19
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹5101.19
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  PAD KIT - BRAKE REAR
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹4633.21
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹4633.21
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="labour-description"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              padding: 6px 10px;
+              background-color: #f6f6f6;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <strong>Labour Description</strong>
+            <span>Amount</span>
+          </div>
+
+          <p
+            style="
+              font-size: 10px;
+              padding: 4px 10px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <span>--</span>
+            <span>--</span>
+          </p>
+        </div>
+        <p
+          style="
+            margin: 4px 0px 8px 0px;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+          "
+        >
+          <span style="color: #0b0b0c">*Note:</span> All rates and total amounts
+          include all applicable taxes, including GST.
         </p>
 
-        <div class="section-header" style="margin-top: 20px">
+        <!-- --------------------------------Rejected Verbatim----------------------------------->
+
+        <div
+          class="section-header"
+          style="
+            background-color: #ff3e5b;
+            color: white;
+            padding: 6px;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 4px 4px 0 0;
+            margin-top: 0;
+            font-size: 10px;
+            border: 1px solid #d9d9d9;
+          "
+        >
           Rejected Verbatim
         </div>
-        <table>
-          <tbody>
-            <tr>
-              <td style="width: 50%; border-bottom: 1px solid #fff">
-                Break In Effective
-              </td>
-              <td style="border-bottom: 1px solid #fff">
-                Duplicate With INSPECT FRT & REAR BRAKE
-              </td>
-            </tr>
-            <tr>
-              <td>Customer VOC</td>
-              <td>FQC Remarks</td>
-            </tr>
-          </tbody>
-        </table>
 
-        <div class="section-header">Workshop Recommended</div>
+        <!-- Header Row for Verbatim & Remarks -->
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            background-color: #f6f6f6;
+            font-weight: 600;
+            border: 1px solid #d9d9d9;
+            padding: 6px;
+            border-bottom: none;
+            border-top: none;
+          "
+        >
+          <div
+            style="
+              width: 50%;
+              border-right: 1px solid #b8b8b8;
+              text-align: start;
+            "
+          >
+            Verbatim
+          </div>
+          <div style="width: 50%; text-align: start">Remarks</div>
+        </div>
 
-        <!-- <div class="repair-item">
-          <div class="title">2. Wiper Spray Not Working</div>
-          <div class="cost">
+        <!-- Content Rows -->
+        <div
+          class="rejectedVerbatim"
+          style="
+            border: 1px solid #d9d9d9;
+            border-radius: 0 0 4px 4px;
+            font-size: 10px;
+          "
+        >
+          <div style="display: flex; justify-content: space-between">
+            <div
+              style="
+                padding: 8px;
+                width: 50%;
+                border-right: 1px solid #d9d9d9;
+                text-align: start;
+              "
+            >
+              Break In Effective
+            </div>
+            <div style="padding: 8px; width: 50%; text-align: start">
+              Duplicate With INSPECT FRT & REAR BRAKE
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between">
+            <div
+              style="
+                padding: 8px;
+                width: 50%;
+                border-right: 1px solid #d9d9d9;
+                text-align: start;
+              "
+            >
+              Customer VOC
+            </div>
+            <div style="padding: 8px; width: 50%; text-align: start">
+              FQC Remarks
+            </div>
+          </div>
+        </div>
+
+        <!-- --------------------------------Workshop Recommended----------------------------------->
+
+        <div
+          class="section-header"
+          style="
+            background-color: #ff3e5b;
+            color: white;
+            padding: 4px;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 4px 4px 0 0;
+            margin-top: 8px;
+            font-size: 10px;
+          "
+        >
+          Workshop Recommended
+        </div>
+
+        <div
+          class="repair-item"
+          style="border: 1px solid #d9d9d9; border-radius: 0 0 4px 4px"
+        >
+          <div
+            class="title"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              display: flex;
+              align-items: center;
+              background-color: #f6f6f6;
+            "
+          >
+            <span
+              style="
+                min-width: 26px;
+                height: 16px;
+                padding: 4px 10px;
+                border-right: 1px solid #d9d9d9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+              >1</span
+            >
+            <p
+              style="
+                margin: 0;
+                padding-left: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+              "
+            >
+              Wiper Spray Not Working
+            </p>
+            <div
+              class="customer-btn"
+              style="margin-left: 274px; display: flex; gap: 4px"
+            >
+              <button
+                style="
+                  border-radius: 50px;
+                  border: 1px solid #ff3e5b;
+                  background-color: white;
+                  font-size: 8px;
+                  padding: 0 6px;
+                  height: 16px;
+                  cursor: pointer;
+                "
+              >
+                Safety
+              </button>
+            </div>
+          </div>
+          <div
+            class="cost"
+            style="
+              font-size: 10px;
+              color: #555;
+              background-color: #fff0f2;
+              display: flex;
+              justify-content: space-between;
+              padding: 6px 10px;
+              border: 1px solid #000;
+              border-left: none;
+              border-right: none;
+            "
+          >
             <span>Part Amount: ₹75.28</span>
-            <span>Labour Amount: ₹0.00</span>
+            <span>Labour Amount: ₹00.00</span>
             <span>Total Amount: ₹150.56</span>
           </div>
-          <table>
+          <table style="width: 100%; border-collapse: collapse">
             <thead>
               <tr>
-                <th>Part Description</th>
-                <th>Qty.</th>
-                <th>Rate</th>
-                <th>Amount</th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Part Description
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Qty.
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Rate
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Amount
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>MAXICARE WINDSHIELD WASHER FLUID</td>
-                <td>02</td>
-                <td>₹75.28</td>
-                <td>₹150.56</td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  MAXICARE WINDSHIELD WASHER FLUID
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  02
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹75.28
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹150.56
+                </td>
               </tr>
             </tbody>
           </table>
-        </div> -->
-        <div class="repair-item">
-          <div class="title">
-            <span>1</span>
-            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
-          </div>
-          <div class="cost">
-            <span>Part Amount: ₹3994.99</span>
-            <span>Labour Amount: ₹3994.99</span>
-            <span>Total Amount: ₹7999.98</span>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>Part Description</th>
-                <th>Qty.</th>
-                <th>Rate</th>
-                <th class="rightSide">Amount</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>MAXIMILE ELITE 1.8 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹114.29</td>
-              </tr>
-              <tr>
-                <td>CU NON ASBESTOS WASHER DIA. 16</td>
-                <td>01</td>
-                <td>₹9.41</td>
-                <td>₹9.41</td>
-              </tr>
-              <tr>
-                <td>OIL FILTER WITH O RING</td>
-                <td>01</td>
-                <td>₹423.46</td>
-                <td>₹423.46</td>
-              </tr>
-              <tr>
-                <td>HVAC FILTER-PARTICLE</td>
-                <td>01</td>
-                <td>₹545.79</td>
-                <td>₹545.79</td>
-              </tr>
-              <tr>
-                <td>MAXIMILE ULTRA V4 6 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹2902.04</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="labour-description">
-            <strong>Labour Description:</strong>
-            <span>Amount</span>
-          </div>
-
-          <p>
-            <span>30000 KM Service Labour</span>
-            <span>₹2469.16</span>
-          </p>
-        </div>
-        <div class="repair-item">
-          <div class="title">
-            <span>2</span>
-            <p>SCORPIO-N_30000 KM SERVICE <br />--</p>
-          </div>
-          <div class="cost">
-            <span>Part Amount: ₹3994.99</span>
-            <span>Labour Amount: ₹3994.99</span>
-            <span>Total Amount: ₹7999.98</span>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>Part Description</th>
-                <th>Qty.</th>
-                <th>Rate</th>
-                <th class="rightSide">Amount</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>MAXIMILE ELITE 1.8 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹114.29</td>
-              </tr>
-              <tr>
-                <td>CU NON ASBESTOS WASHER DIA. 16</td>
-                <td>01</td>
-                <td>₹9.41</td>
-                <td>₹9.41</td>
-              </tr>
-              <tr>
-                <td>OIL FILTER WITH O RING</td>
-                <td>01</td>
-                <td>₹423.46</td>
-                <td>₹423.46</td>
-              </tr>
-              <tr>
-                <td>HVAC FILTER-PARTICLE</td>
-                <td>01</td>
-                <td>₹545.79</td>
-                <td>₹545.79</td>
-              </tr>
-              <tr>
-                <td>MAXIMILE ULTRA V4 6 L</td>
-                <td>01</td>
-                <td>₹2902.04</td>
-                <td>₹2902.04</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="labour-description">
-            <strong>Labour Description:</strong>
-            <span>Amount</span>
-          </div>
-
-          <p>
-            <span>30000 KM Service Labour</span>
-            <span>₹2469.16</span>
-          </p>
-        </div>
-        <p style="margin-bottom: 10px">
-          <span
-            >*Note: All rates and total amounts include all applicable taxes,
-            including GST.</span
+          <div
+            class="labour-description"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              padding: 6px 10px;
+              background-color: #f6f6f6;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
           >
+            <strong>Labour Description</strong>
+            <span>Amount</span>
+          </div>
+
+          <p
+            style="
+              font-size: 10px;
+              padding: 4px 10px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <span>--</span>
+            <span>--</span>
+          </p>
+        </div>
+        <div
+          class="repair-item"
+          style="border: 1px solid #d9d9d9; border-radius: 0 0 4px 4px"
+        >
+          <div
+            class="title"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              display: flex;
+              align-items: center;
+              background-color: #f6f6f6;
+              /* height: 24px !important; */
+            "
+          >
+            <span
+              style="
+                min-width: 26px;
+                height: 16px;
+                padding: 4px 10px;
+                border-right: 1px solid #d9d9d9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+              >2</span
+            >
+            <p
+              style="
+                margin: 0;
+                padding-left: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+              "
+            >
+              Headlamp_Broken/Not Working
+            </p>
+            <div
+              class="customer-btn"
+              style="margin-left: 244px; display: flex; gap: 4px"
+            >
+              <button
+                style="
+                  border-radius: 50px;
+                  border: 1px solid #ff3e5b;
+                  background-color: white;
+                  font-size: 8px;
+                  padding: 0 6px;
+                  height: 16px;
+                  cursor: pointer;
+                "
+              >
+                Safety
+              </button>
+            </div>
+          </div>
+          <div
+            class="cost"
+            style="
+              font-size: 10px;
+              color: #555;
+              background-color: #fff0f2;
+              display: flex;
+              justify-content: space-between;
+              padding: 6px 10px;
+              border: 1px solid #000;
+              border-left: none;
+              border-right: none;
+            "
+          >
+            <span>Part Amount: ₹7729.01</span>
+            <span>Labour Amount: ₹00.00</span>
+            <span>Total Amount: ₹7729.01</span>
+          </div>
+          <table style="width: 100%; border-collapse: collapse">
+            <thead>
+              <tr>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Part Description
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Qty.
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Rate
+                </th>
+                <th
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                    background-color: #f6f6f6;
+                  "
+                >
+                  Amount
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  HEAD LAMP ASSY HIGH LH
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹7720.00
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹7720.00
+                </td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  AVDEL POP RIVET 01601-00619
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: left;
+                  "
+                >
+                  ₹9.01
+                </td>
+                <td
+                  style="
+                    border: 1px solid #d9d9d9;
+                    padding: 8px;
+                    text-align: right;
+                  "
+                >
+                  ₹9.01
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="labour-description"
+            style="
+              font-weight: bold;
+              font-size: 10px;
+              padding: 6px 10px;
+              background-color: #f6f6f6;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <strong>Labour Description</strong>
+            <span>Amount</span>
+          </div>
+
+          <p
+            style="
+              font-size: 10px;
+              padding: 4px 10px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <span>--</span>
+            <span>--</span>
+          </p>
+        </div>
+        <p
+          style="
+            margin: 4px 0px 8px 0px;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+          "
+        >
+          <span style="color: #0b0b0c">*Note:</span> All rates and total amounts
+          include all applicable taxes, including GST.
         </p>
 
-        <div class="vehicleHealth">
-          <div class="vehicleHealth-left">
-            <p>Customer Acknowledgement</p>
-            <p>If signed at RO opening</p>
+        <div
+          class="vehicleHealth"
+          style="
+            border: 1px solid #d9d9d9;
+            border-radius: 4px;
+            padding: 8px;
+            font-size: 10px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            height: 52.4px;
+          "
+        >
+          <div
+            class="vehicleHealth-left"
+            style="
+              display: flex;
+              justify-content: space-between;
+              flex-direction: column;
+            "
+          >
+            <p style="margin: 0">Customer Acknowledgement</p>
+            <p style="display: flex; margin: 0">
+              <span style="color: #0b0b0c">If signed at RO opening</span>
+            </p>
           </div>
-          <div class="vehicleHealth-right">
-            <div>
-              <img
+          <div
+            class="vehicleHealth-right"
+            style="
+              padding: 10px;
+              gap: 8px;
+              background-color: #f6f6f6;
+              display: flex;
+              /* justify-content: center; */
+              align-items: center;
+              width: 235px;
+              border-radius: 4px;
+            "
+          >
+            <div class="vehicleHealth-right-content">
+              <!-- <img
                 src="./assets/ico-feedback.png"
                 style="width: 32px; height: 32px"
                 alt=""
-              />
+              /> -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.81306 4.79995C8.2555 4.79995 7.87695 5.25138 7.87695 5.71328V26.2866C7.87695 26.7488 8.25577 27.1999 8.81306 27.1999H24.1231V10.4H20.4238C19.2445 10.4 18.2154 9.41091 18.2154 8.09595V4.79995H8.81306ZM19.6923 5.76297L22.8962 8.79995H20.4238C19.9795 8.79995 19.6923 8.44232 19.6923 8.09595V5.76297ZM6.40002 5.71328C6.40002 4.28319 7.52011 3.19995 8.81306 3.19995H19.2313L25.6 9.23694V27.4799C25.6 28.209 25.0545 28.7999 24.3816 28.7999H8.81306C7.52115 28.7999 6.40002 27.7178 6.40002 26.2866V5.71328ZM10.0923 13.5789C10.0923 13.1371 10.423 12.7789 10.8308 12.7789H21.1693C21.5771 12.7789 21.9077 13.1371 21.9077 13.5789C21.9077 14.0207 21.5771 14.3789 21.1693 14.3789H10.8308C10.423 14.3789 10.0923 14.0207 10.0923 13.5789ZM10.0923 16.8C10.0923 16.3581 10.423 16 10.8308 16H21.1693C21.5771 16 21.9077 16.3581 21.9077 16.8C21.9077 17.2418 21.5771 17.6 21.1693 17.6H10.8308C10.423 17.6 10.0923 17.2418 10.0923 16.8ZM10.0923 20C10.0923 19.5581 10.423 19.2 10.8308 19.2H16C16.4079 19.2 16.7385 19.5581 16.7385 20C16.7385 20.4418 16.4079 20.7999 16 20.7999H10.8308C10.423 20.7999 10.0923 20.4418 10.0923 20Z"
+                  fill="#FF3E5B"
+                />
+              </svg>
             </div>
-            <div class="">
-              <p>To view vehicle inspection report</p>
-              <p><link rel="stylesheet" href="" />click here</p>
+            <div>
+              <p style="color: #545454">To view vehicle inspection report</p>
+              <p>
+                <a
+                  href="https://repair-item-pdf.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="color: #4d4dff"
+                >
+                  Click here
+                </a>
+              </p>
             </div>
           </div>
         </div>
-        <!-- <table>
-            <tbody>
-              <tr>
-                <td style="width: 50%; border-bottom: 1px solid #fff">
-                  Customer Acknowledgement
-                </td>
-                <td style="border-bottom: 1px solid #fff">
-                  <img
-                    src="./assets/ico-feedback.png"
-                    style="width: 32px; height: 32px"
-                    alt=""
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>If signed at RO opening</td>
-                <td>To view vehicle inspection report</td>
-              </tr>
-            </tbody>
-          </table> -->
 
-        <div class="section-header">Vehicle Health Checklist Images</div>
-        <p><span> Headlamp_Broken/Not Working</span></p>
-        <div class="image-container">
-          <img src="./assets/Frame 73993.png" alt="Jeep" />
-          <img src="./assets/Frame 73993.png" alt="Jeep" />
-          <img src="./assets/Frame 73993.png" alt="Jeep" />
+        <!----------------------------------Vehicle Health Checklist Images----------------------------------->
+
+        <div
+          class="section-header"
+          style="
+            background-color: #ff3e5b;
+            color: white;
+            padding: 4px;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 4px 4px 0 0;
+            margin-top: 0;
+            font-size: 10px;
+          "
+        >
+          Vehicle Health Checklist Images
         </div>
+        <div class="vehicleImages" style="border: 1px solid #d9d9d9">
+          <p
+            style="
+              margin: 0;
+              padding: 4px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-weight: bold;
+            "
+          >
+            <span>Headlamp_Broken/Not Working</span>
+          </p>
+          <div
+            class="image-container"
+            style="display: flex; justify-content: space-between; padding: 8px"
+          >
+            <img
+              src="./assets/Frame 73993.png"
+              alt="Jeep"
+              style="width: 30%; border-radius: 5px"
+            />
+            <img
+              src="./assets/Frame 73993.png"
+              alt="Jeep"
+              style="width: 30%; border-radius: 5px"
+            />
+            <img
+              src="./assets/Frame 73993.png"
+              alt="Jeep"
+              style="width: 30%; border-radius: 5px"
+            />
+          </div>
+        </div>
+        <!----------------------------------Escalation Details----------------------------------->
 
-        <div class="section-header">Escalation Details</div>
-        <table class="escalation-table">
+        <div
+          class="section-header"
+          style="
+            background-color: #ff3e5b;
+            color: white;
+            padding: 4px;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 4px 4px 0 0;
+            margin-top: 10px;
+            font-size: 10px;
+          "
+        >
+          Escalation Details
+        </div>
+        <table
+          class="escalation-table"
+          style="border-collapse: collapse; width: 100%"
+        >
           <thead>
             <tr>
-              <th></th>
-              <th>CXM</th>
-              <th>SH</th>
-              <th>GM</th>
-              <th>CCM</th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              ></th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                CXM
+              </th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                SH
+              </th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                GM
+              </th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                CCM
+              </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Name</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                Name
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
             </tr>
           </tbody>
           <tbody>
             <tr>
-              <td>Contact</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                Contact
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
             </tr>
           </tbody>
           <thead>
             <tr>
-              <th></th>
-              <th>MRC</th>
-              <th>WHY</th>
-              <th>WA</th>
-              <th>Twitter</th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              ></th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                MRC
+              </th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                WHY
+              </th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                WA
+              </th>
+              <th
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                  background-color: #f6f6f6;
+                  color: #0b0b0c;
+                "
+              >
+                Twitter
+              </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Name</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                Name
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
             </tr>
           </tbody>
           <tbody>
             <tr>
-              <td>Contact</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
-              <td>---</td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                Contact
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
+              <td
+                style="
+                  border: 1px solid #d9d9d9;
+                  padding: 8px;
+                  text-align: center;
+                "
+              >
+                ---
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div class="terms-container">
-        <h2>Terms & Conditions</h2>
-        <p>
+      <!-- ----------------------------------Terms & Conditions----------------------------------- -->
+      <div
+        class="terms-container"
+        style="
+          background: white;
+          margin-top: 8px;
+          /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+          border: 1px solid #d1d5db;
+          border-radius: 4px;
+          padding: 8px;
+        "
+      >
+        <h2
+          style="
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            position: relative;
+            width: max-content;
+            border-bottom: 2px solid #ff3e5b;
+          "
+        >
+          Terms & Conditions
+        </h2>
+        <!-- <hr style=" border-bottom: 2px solid #ff3e5b;" > -->
+        <p style="font-size: 10px; color: #0b0b0c; margin-bottom: 10px">
           I understand that the workshop carries out the repairs solely in line
           with the following conditions:
         </p>
 
-        <ol>
-          <li>
+        <ol style="padding-left: 20px">
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             I have authorised and allowed the workshop to dismantle and assemble
             all relevant aggregate(s) of my vehicle ("Vehicle"), in order to
             diagnose the root cause of my concern and carry out necessary repair
@@ -632,147 +2351,390 @@
             policy.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             I am fully aware that my Vehicle shall be stored, driven and
             repaired solely at my own risk and cost. I agree that for any loss
             or damage caused to my Vehicle in the event of any Force Majeure
             Event or for the reasons beyond the control of workshop, dealership
             and/or M&M, neither the workshop nor the dealership or M&M shall be
-            responsible...
+            responsible. A “Force Majeure Event” is any event, change or
+            circumstance beyond the reasonable control of a party, including,
+            without limitation, labour disputes, strikes, delays relating to
+            supply of services, disruption in supply chain, damage to or
+            breakdown of workshop, machinery or equipment, inclement weather,
+            hurricanes, earthquakes, floods, snow storms, ice storms, electrical
+            failure or any other natural disasters or acts of God, war,
+            sabotage, military actions (or the escalation thereof), terrorist
+            attack, pandemic or epidemic.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             I agree that I will not indulge in any unauthorised surveillance
             including photography, videography, etc. at or of the workshop and
-            shall not trespass into any area not meant for customers or
-            outsiders in the workshop premise...
+            shall not trespass into any area not meant for customers/outside in
+            the workshop premise. I shall be solely liable/responsible for any
+            improper/illegal acts or omission on my part, and the
+            workshop/dealership or M&M shall be free to take legal action in
+            this regard.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             The delivery date and time informed by the Dealership while
             admitting the Vehicle is just an indicative estimate and not a firm
-            commitment...
+            commitment. However, the Dealership shall agree to adhere to the
+            delivery schedule as far as practicable and the customer shall not
+            hold the Dealership responsible/liable for any delay in delivery or
+            in carrying out specialized repairs or procurement of spare parts
+            for reasons beyond their control.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Vehicle shall be retained at workshop/service station for a period
             as may be necessary for carrying out the inspection,
-            investigation(s) and repair...
+            investigation(s) and repair. During this time, the dealership
+            is/shall not be liable to compensate customer/user or make any
+            alternate arrangements for transportation.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Necessary components/parts shall be replaced or repaired as deemed
             fit and the cost shall be borne by me if the same are not covered
-            under the applicable warranty...
+            under the applicable warranty. The Vehicle shall be attended by the
+            personnel of the dealer as per warranty terms and conditions only.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Repair cost estimation is provided on the repair request conveyed by
-            the customer and as per the initial inspection of the Vehicle...
+            the customer and as per the initial inspection of the Vehicle.
+            However, supplementary estimation may be provided for additional
+            jobs/parts/accessories required which in the opinion of the
+            Dealership is essential to effectively complete the repair initially
+            assessed.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             In case of any accident or damage caused to Vehicle in workshop or
-            during road test or in event of Force Majeure Event...
+            during road test or in event of Force Majeure Event or for the
+            reasons beyond the control of the workshop, dealership or M&M, the
+            settlement of claim shall be done at an Insured Declared Value (IDV)
+            of Vehicle if the Vehicle is under insurance cover subject to terms
+            and conditions of the insurance/risk carrier. If the Vehicle does
+            not have a valid insurance, then the customer undertakes to bear all
+            the expenses and cost related to restoration of the Vehicle and the
+            dealership will not be held responsible.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             I allow and authorise the dealer/workshop or any other authorised
             person appointed on their behalf to contact me through phone/text
-            message/WhatsApp/email...
+            message/WhatsApp/email or any other mode of communication to inform
+            me regarding various transaction/service promotions or any other
+            promotions pertaining to my Vehicle or M&M brand of Vehicles.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Replaced parts may be handed over to me, however dealer/workshop may
-            retain replaced part/used parts to carry out root cause analysis...
+            retain replaced part/used parts to carry out root cause analysis at
+            their workshop or M&M manufacturing or vendor facility, as deemed
+            appropriate by the personnel of the dealership.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             In case I do not collect the replaced parts after service, then it
             shall be assumed that I am not interested or willing to collect the
-            parts...
+            parts and thereafter no claim shall be entertained by the
+            workshop/dealership in this regard.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Parts replaced under manufacturer’s standard warranty, extended
-            warranty or any other scheme shall be retained by the dealership...
+            warranty or any other scheme shall be retained by the dealership and
+            not handed over to the customer. However, customer can see the
+            replaced component at the time of taking delivery of the Vehicle.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Customer needs to ensure to properly dispose any replaced parts
             collected by him/her as per applicable local
             government/environmental guidelines.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Salvage of accident Vehicle must be collected by customer along with
-            the Vehicle...
+            the Vehicle. Salvage/old part not claimed at the time of delivery
+            may be disposed of by the Dealership as scrap.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             The workshop shall not be bound to replace the spare
             parts/components or consumable items brought from outside by the
-            customer...
+            customer and I understand it will be treated as a breach of my
+            Vehicle warranty terms and conditions.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             In case of pickup and drop facility availed by me, I agree that the
             Vehicle shall be driven & brought to workshop or delivered back at
-            my sole risk & responsibility...
+            my sole risk & responsibility. Though utmost care is always taken by
+            drivers at workshop, but in case of any eventuality, the cost of
+            repair of the Vehicle shall be borne by me and the workshop will not
+            be responsible for any damage caused by the workshop or its staff.
+            The customer shall remove all the valuables, documents, pen drive,
+            CD and other materials from the Vehicle while handing over the same
+            for service/repair and the workshop or dealership or M&M shall not
+            be liable / responsible for any loss/damage suffered by the customer
+            in this regard.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             I undertake to pay the demurrage/garage/storing charges levied by
-            the workshop for retaining my Vehicle after service...
+            the workshop for retaining my Vehicle after service for not taking
+            the delivery within 48 hours of the same and I shall bear the entire
+            cost in case of any damage or loss caused to the Vehicle or any
+            damage caused by the Vehicle at the workshop or to the loaner car
+            provided to me by the workshop, as the case may be. I also agree to
+            pay the cost or usage of loaner Vehicle if the same is not retumned
+            by me upon request made by workshop/dealer.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             I also undertake to make payment of all the charges before taking
-            the delivery of my Vehicle...
+            the delivery of my Vehicle. In the event of non-settlement of bills
+            beyond a period agreed between the Dealership and the Customer,
+            Dealership may levy interest charges on the outstanding bill amount.
+            Any bank charges will be paid by Customer.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Customer shall pay an advance payment of up to 50% of the total
-            estimated cost in case of major repairs...
+            estimated cost in case of major repairs, whether under insurance
+            claim or otherwise. Customer undertakes to pay for all repair work
+            carried out by the dealer prior to taking delivery of the Vehicle.
+            For repairs covered under insurance, subsequent reimbursements from
+            insurance company may be made directly to customer by the insurance
+            company. However, the customer shall not take the delivery of the
+            Vehicle unless the dealer has received the payment from the
+            insurance company.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             After providing estimate to the customer, repair work will be
             carried out based on verbal/written/online approval from the
-            customer...
+            customer. However, if the customer does not respond to the request
+            for approval of the estimate within three days, it will be
+            considered as approved, and work will be carried out as per the
+            estimate.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Customer shall undertake to pay estimation charges as levied by the
             Dealership if the repair job is not entrusted to the Dealer after
-            obtaining the estimate...
+            obtaining the estimate. Such charges will be informed by the dealer
+            to the customer in advance.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             The dealership can exercise lien on the Vehicle until all the
             above-mentioned dues are settled to the Dealership’s satisfaction.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             The Dealership may deliver the Vehicle to the customer or any
             representative of the customer whose signature appears on the Job
-            Card...
+            Card or who is authorized by the customer.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             I am the owner and have read and understood the terms and condition
             stated and agree to abide by the same.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             These terms and conditions do not apply to repairs that we carry out
-            on the basis of a warranty agreement...
+            on the basis of a warranty agreement. The same shall be covered
+            under terms of applicable warranty policy.
           </li>
 
-          <li>
+          <li
+            style="
+              font-size: 9px;
+              color: #444;
+              line-height: 1.6;
+              margin-bottom: 10px;
+            "
+          >
             Once this repair order is approved, the work carried out under this
             repair order, shall be subject to the jurisdiction of the local
-            courts...
+            courts where the repair work has been carried out by the
+            workshop/dealer.
           </li>
         </ol>
       </div>
